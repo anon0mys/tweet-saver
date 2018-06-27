@@ -6,12 +6,12 @@ class TweetsTest < ApplicationSystemTestCase
   end
 
   test "visiting the index" do
-    visit tweets_url
+    visit tweets_urlwegwdegwergwer
     assert_selector "h1", text: "Tweets"
   end
 
   test "creating a Tweet" do
-    visit tweets_url
+    visit tweets_urldsfgbfbdfgbdfgb
     click_on "New Tweet"
 
     fill_in "Message", with: @tweet.message
